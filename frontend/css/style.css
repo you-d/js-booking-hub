@@ -1,0 +1,370 @@
+.inheritance_1, html, body {
+  height: 100%; }
+
+body {
+  background: linear-gradient(270deg, rgba(255, 0, 229, 0.1) 0%, rgba(174, 35, 35, 0.1) 37%, rgba(116, 35, 99, 0.1) 47%, rgba(48, 35, 174, 0.1) 57%, rgba(83, 160, 253, 0.1) 78%, rgba(180, 236, 81, 0.1) 100%);
+  background: -webkit-linear-gradient(180deg, rgba(255, 0, 229, 0.1) 0%, rgba(174, 35, 35, 0.1) 37%, rgba(116, 35, 99, 0.1) 47%, rgba(48, 35, 174, 0.1) 57%, rgba(83, 160, 253, 0.1) 78%, rgba(180, 236, 81, 0.1) 100%);
+  font-family: "Anonymous Pro", "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, sans-serif !important;
+  overflow-x: hidden;
+  color: #777;
+  background-color: #EEE; }
+
+hr {
+  border-top: 1px solid #000; }
+
+a {
+  color: #00B7FF; }
+
+#main {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: auto; }
+
+.noscript div {
+  width: 100%;
+  text-align: center; }
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background-color: #DDD;
+  border-top: 2px solid #777;
+  z-index: 2; }
+  .footer .container p {
+    text-align: center;
+    margin: 20px 0; }
+
+.nav > li {
+  cursor: pointer; }
+
+.inheritance_3, .nav-justified > .active > div {
+  background-color: #ddd;
+  background-image: none;
+  -webkit-box-shadow: inset 0 3px 7px rgba(0, 0, 0, 0.15);
+  box-shadow: inset 0 3px 7px rgba(0, 0, 0, 0.15); }
+  .inheritance_3:hover, .nav-justified > .active > div:hover, .inheritance_3:focus, .nav-justified > .active > div:focus {
+    background-color: #ddd;
+    background-image: none;
+    -webkit-box-shadow: inset 0 3px 7px rgba(0, 0, 0, 0.15);
+    box-shadow: inset 0 3px 7px rgba(0, 0, 0, 0.15); }
+
+.nav-justified {
+  background-color: #eee;
+  border: 0px; }
+  @media print, screen and (min-width: 768px) {
+    .nav-justified {
+      max-height: 52px; } }
+  .nav-justified > li > div {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 0;
+    font-weight: bold;
+    color: #777;
+    text-align: center;
+    background-color: #e5e5e5;
+    /* Old browsers */
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#f5f5f5), to(#e5e5e5));
+    background-image: -webkit-linear-gradient(top, #f5f5f5 0%, #e5e5e5 100%);
+    background-image: -o-linear-gradient(top, #f5f5f5 0%, #e5e5e5 100%);
+    background-image: linear-gradient(to bottom, #f5f5f5 0%, #e5e5e5 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$frmColour', endColorstr='$toColour', GradientType=0);
+    /* IE6-9 */
+    background-repeat: repeat-x;
+    /* Repeat the gradient */
+    border-bottom: 1px solid #d5d5d5; }
+    .nav-justified > li > div:hover {
+      text-decoration: underline; }
+
+#hamburgerBtn {
+  display: none; }
+
+@media print, screen and (min-width: 768px) {
+  #fixed-navbar {
+    display: none; } }
+
+@media print, screen and (max-width: 767px) {
+  #fixed-navbar {
+    display: block; } }
+
+#filterOption {
+  display: none; }
+  #filterOption > div {
+    width: 280px;
+    margin: 0 auto; }
+  #filterOption > div > div {
+    width: 70px;
+    text-align: center;
+    cursor: pointer;
+    float: left;
+    padding-top: 20px; }
+    #filterOption > div > div:hover {
+      font-weight: bold; }
+  #filterOption > div > div:first-child {
+    cursor: default; }
+    #filterOption > div > div:first-child:hover {
+      font-weight: normal; }
+
+@media print, screen and (max-width: 767px) {
+  .masthead {
+    display: none; } }
+
+.themeBorder, .flightForm, .resultContentLayout {
+  border: 2px solid #777;
+  border-radius: 10px; }
+
+.flightForm {
+  margin: 10px 0 20px 0;
+  padding: 25px 0 25px 0; }
+  @media print, screen and (max-width: 767px) {
+    .flightForm {
+      border: 0px; } }
+  .flightForm > div > div {
+    margin: 0 auto;
+    text-align: center; }
+  .flightForm label {
+    margin-top: 5px; }
+
+.flightFormInput {
+  border-radius: 0px;
+  height: 31px;
+  background-color: rgba(255, 255, 255, 0);
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  cursor: pointer;
+  border-bottom: 1px solid #777;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  -moz-appearance: none;
+  -webkit-appearance: none; }
+  @media print, screen and (min-width: 768px) and (max-width: 991px) {
+    .flightFormInput {
+      font-size: 11px; } }
+
+select.flightFormInput {
+  width: inherit !important; }
+
+.input-group {
+  width: 100%; }
+  .input-group > span:first-child {
+    width: 90%; }
+
+.form-control[readonly] {
+  background-color: rgba(255, 255, 255, 0);
+  cursor: pointer; }
+
+.flightFormMobile {
+  display: none; }
+  @media print, screen and (max-width: 767px) {
+    .flightFormMobile {
+      display: block; } }
+
+.searchButton {
+  border: 1px solid #777;
+  width: 90%;
+  cursor: pointer;
+  margin-top: 5px !important;
+  background-color: #CCC;
+  text-align: center; }
+  .searchButton:hover {
+    font-weight: bold;
+    color: #fff;
+    background-color: #777; }
+  @media print, screen and (min-width: 992px) and (max-width: 1199px) {
+    .searchButton {
+      width: 110%; } }
+  @media print, screen and (min-width: 768px) and (max-width: 991px) {
+    .searchButton {
+      width: 180%;
+      margin-left: -20px !important; } }
+  @media print, screen and (max-width: 767px) {
+    .searchButton {
+      margin-top: 25px !important;
+      width: 100%; } }
+
+.resultContentLayout {
+  width: 100%;
+  margin-bottom: 35px;
+  margin-left: 0px;
+  padding: 30px 15px 15px 15px;
+  margin-bottom: 100px; }
+  @media print, screen and (min-width: 768px) and (max-width: 991px) {
+    .resultContentLayout {
+      padding: 15px 15px 0px 15px; } }
+  @media print, screen and (max-width: 767px) {
+    .resultContentLayout {
+      padding: 15px 15px 0px 15px; } }
+
+.inheritance_4, .resultCellRow1Left, .resultCellRow1Right {
+  border-top: 1px solid #777;
+  border-bottom: 0.1px dashed #777;
+  padding: 5px 10px 5px 10px; }
+  @media print, screen and (min-width: 1200px) {
+    .inheritance_4, .resultCellRow1Left, .resultCellRow1Right {
+      font-size: 24px; } }
+  @media print, screen and (min-width: 992px) and (max-width: 1199px) {
+    .inheritance_4, .resultCellRow1Left, .resultCellRow1Right {
+      font-size: 1.3em; } }
+  @media print, screen and (min-width: 768px) and (max-width: 991px) {
+    .inheritance_4, .resultCellRow1Left, .resultCellRow1Right {
+      font-size: 1.3em; } }
+  @media print, screen and (max-width: 767px) {
+    .inheritance_4, .resultCellRow1Left, .resultCellRow1Right {
+      font-size: 0.9em;
+      padding: 5px 5px; } }
+
+.inheritance_5, .resultCellRow3Left, .resultCellRow3Right {
+  border-top: 0.1px dashed #777;
+  border-bottom: 1px solid #777;
+  padding: 5px 0 5px 0; }
+
+.inheritance_6, .resultCellRow2Left, .resultCellRow2Right {
+  padding: 15px 0 15px 0; }
+  .inheritance_6 > div:first-child, .resultCellRow2Left > div:first-child, .resultCellRow2Right > div:first-child {
+    font-size: 24px;
+    border: 1px solid #777;
+    padding: 0 3px 0 3px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    /* TODO: BROWSERS COMPATIBILITY */ }
+    @media print, screen and (max-width: 767px) {
+      .inheritance_6 > div:first-child, .resultCellRow2Left > div:first-child, .resultCellRow2Right > div:first-child {
+        font-size: 1.5em; } }
+  .inheritance_6 > div:nth-child(2), .resultCellRow2Left > div:nth-child(2), .resultCellRow2Right > div:nth-child(2) {
+    font-size: 20px;
+    margin-top: 4px; }
+    @media print, screen and (max-width: 767px) {
+      .inheritance_6 > div:nth-child(2), .resultCellRow2Left > div:nth-child(2), .resultCellRow2Right > div:nth-child(2) {
+        margin-top: 2px; } }
+  @media print, screen and (max-width: 767px) {
+    .inheritance_6 > div:nth-child(4), .resultCellRow2Left > div:nth-child(4), .resultCellRow2Right > div:nth-child(4) {
+      font-size: 0.8em;
+      padding-bottom: 3px; } }
+
+.clearFloat {
+  clear: both; }
+
+.notAvailCellRow {
+  text-align: center;
+  margin-bottom: 19px; }
+
+.resultCellRow {
+  margin-bottom: 15px; }
+  .resultCellRow > div {
+    background-color: #EEE; }
+  @media print, screen and (min-width: 768px) and (max-width: 991px) {
+    .resultCellRow {
+      padding-left: 0px;
+      padding-right: 0px; } }
+  @media print, screen and (max-width: 767px) {
+    .resultCellRow {
+      padding-left: 0px;
+      padding-right: 0px; } }
+
+.resultCellRow1Left {
+  text-align: left; }
+  .resultCellRow1Left > .glyphicon {
+    top: 5px !important; }
+    @media print, screen and (max-width: 767px) {
+      .resultCellRow1Left > .glyphicon {
+        top: 2px !important; } }
+
+.resultCellRow1Right {
+  text-align: right; }
+  .resultCellRow1Right > span:first-child {
+    color: #CC403D;
+    font-size: 14px;
+    margin-right: 8px; }
+    @media print, screen and (min-width: 992px) and (max-width: 1199px) {
+      .resultCellRow1Right > span:first-child {
+        font-size: 12px; } }
+    @media print, screen and (min-width: 768px) and (max-width: 991px) {
+      .resultCellRow1Right > span:first-child {
+        font-size: 14px; } }
+    @media print, screen and (max-width: 767px) {
+      .resultCellRow1Right > span:first-child {
+        display: none; } }
+
+.transitColor {
+  color: #B8860B !important; }
+
+.transitIconColor {
+  color: #CC403D;
+  top: 2px !important; }
+
+.resultCellRow2Left {
+  text-align: left;
+  padding-left: 10px;
+  border-right: 1px solid #777; }
+  .resultCellRow2Left > div {
+    float: left; }
+  .resultCellRow2Left > div:first-child {
+    color: #00CED1; }
+  .resultCellRow2Left > div:nth-child(2) {
+    margin-left: 10px; }
+
+.resultCellRow2Right {
+  text-align: right;
+  padding-right: 10px; }
+  .resultCellRow2Right > div {
+    float: right; }
+  .resultCellRow2Right > div:first-child {
+    color: #FF8C00; }
+  .resultCellRow2Right > div:nth-child(2) {
+    margin-right: 10px; }
+
+.resultCellRow3Left {
+  text-align: left;
+  padding-left: 10px; }
+  .resultCellRow3Left > .glyphicon {
+    top: 2px !important; }
+
+.resultCellRow3Right {
+  text-align: right;
+  padding-right: 10px; }
+
+.bookingButton {
+  font-weight: bold;
+  cursor: pointer; }
+  .bookingButton > .glyphicon {
+    top: -1px;
+    font-size: 8px; }
+
+#ui-datepicker-div {
+  z-index: 9 !important; }
+  @media print, screen and (min-width: 1200px) {
+    #ui-datepicker-div {
+      font-size: 1.2em !important; } }
+  @media print, screen and (min-width: 992px) and (max-width: 1199px) {
+    #ui-datepicker-div {
+      font-size: 1.2em !important; } }
+  @media print, screen and (min-width: 768px) and (max-width: 991px) {
+    #ui-datepicker-div {
+      font-size: 1.4em !important;
+      top: 135px !important; } }
+  @media print, screen and (max-width: 767px) {
+    #ui-datepicker-div {
+      font-size: 1.9em !important;
+      left: 0px !important;
+      width: 100% !important;
+      top: 155px !important; } }
+
+.navbar-collapse > ul {
+  margin: 0px;
+  text-align: center; }
+
+.inheritance_2, .navbar-collapse ul li:hover, .navbar-collapse ul li.active {
+  background-color: #BBB;
+  color: #FFF;
+  font-weight: bold; }
+
+.navbar-collapse ul li {
+  height: 30px;
+  border-bottom: 1px solid #DDD; }
+  .navbar-collapse ul li > div {
+    padding-top: 4px; }
