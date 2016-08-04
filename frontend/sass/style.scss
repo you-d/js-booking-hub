@@ -119,6 +119,12 @@ a {
         display: block;
     }
 }
+#demoMsg {
+   display: block; text-align: center;
+   @include media-query-lg-bstrap-pattern() { padding-top: 20px; }
+   @include media-query-md-bstrap-pattern() { padding-top: 20px; }
+   @include media-query-sm-bstrap-pattern() { padding-top: 10px; }
+}
 #filterOption  {
     $cell-width: 70px;
     display: none;

@@ -25,6 +25,7 @@ export function setUpSearchResultSection(selectedDate, allDesiredFlightDates, ma
 
     document.getElementById("hamburgerBtn").style.display = "block";
     document.getElementById("filterOption").style.display = "block";
+    document.getElementById("demoMsg").style.display = "none";
 
     allDesiredFlightDates.desiredFlightDateMinus2 = helperModule.calculateNewDateBasedOnPivotDate(selectedDate, -2);
     allDesiredFlightDates.desiredFlightDateMinus1 = helperModule.calculateNewDateBasedOnPivotDate(selectedDate, -1);
