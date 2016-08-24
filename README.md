@@ -22,3 +22,15 @@ Some point of interests with regards to the structure of the code :
 
 + The compiled Frontend JS Files => "locomote_test/public/dist/" 
  - I used a mix of Gulp and Webpack build tools, to bundle, and compress the frontend files. Also the ES6, and SASS are compiled through Webpack as well. 
+
+Applied technologies: 
+- HTML5.
+- CSS3 with SASS, and Twitter Bootstrap 3.
+- Javascript (ES6 with Babel Transpiler).
+- Jquery (minor exposure - for performing AJAX request, & utilising a single feature from Jquery UI library). 
+- A mix of Gulp, and Webpack build tools.
+- Node.JS, and Express.JS (to handle the backend part), RESTful Web Service, and JSON.
+- MVC (Model View Controller) architecture.
+- Heroku PASS Cloud Hosting Service. 
+- Google Developer Tool / Firebug.
+- Unit Testing.
