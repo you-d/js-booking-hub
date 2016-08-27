@@ -1,5 +1,7 @@
 # js-booking-hub
 
+Status: Completed (Meet the Spec Requirement)
+
 A fully responsive, single page web application that demonstrates my knowledge in Front End Development utilising plain Javascript (ES6 with Babel Transpiler) without relying on any Javascript based frameworks such as Angular.JS or React JS. The theme of this project is a simple online plane ticket booking hub ala Webjet, and SkyScanner. The web app itself is cross browser friendly as it has been tested on both Google Chrome, and Mozilla Firefox.
 
 Highlights:
